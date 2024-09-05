@@ -59,6 +59,7 @@ public @interface Mod
          * @return a modid
          */
         String modid() default "";
+        int bola;
 
         /**
          * Specify an alternative bus to listen to
